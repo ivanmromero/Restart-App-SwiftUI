@@ -13,6 +13,8 @@
 		D2C2BE4C2B4C90B200D6F6AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C2BE4B2B4C90B200D6F6AB /* Preview Assets.xcassets */; };
 		D2C2BE542B4C92E600D6F6AB /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D2C2BE522B4C92E500D6F6AB /* success.m4a */; };
 		D2C2BE552B4C92E600D6F6AB /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2C2BE532B4C92E500D6F6AB /* chimeup.mp3 */; };
+		D2C2BE5C2B4C9D6500D6F6AB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2BE5B2B4C9D6500D6F6AB /* OnboardingView.swift */; };
+		D2C2BE5E2B4C9D8000D6F6AB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2BE5D2B4C9D8000D6F6AB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D2C2BE522B4C92E500D6F6AB /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		D2C2BE532B4C92E500D6F6AB /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		D2C2BE5A2B4C97FE00D6F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2C2BE5B2B4C9D6500D6F6AB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D2C2BE5D2B4C9D8000D6F6AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				D2C2BE462B4C90B000D6F6AB /* ContentView.swift */,
+				D2C2BE5B2B4C9D6500D6F6AB /* OnboardingView.swift */,
+				D2C2BE5D2B4C9D8000D6F6AB /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C2BE5C2B4C9D6500D6F6AB /* OnboardingView.swift in Sources */,
+				D2C2BE5E2B4C9D8000D6F6AB /* HomeView.swift in Sources */,
 				D2C2BE472B4C90B000D6F6AB /* ContentView.swift in Sources */,
 				D2C2BE452B4C90B000D6F6AB /* Restart_AppApp.swift in Sources */,
 			);
